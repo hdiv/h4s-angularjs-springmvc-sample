@@ -76,6 +76,11 @@
     </dependencyManagement>
 
     <dependencies>
+    	<dependency>
+			<groupId>com.hdivsecurity</groupId>
+			<artifactId>hdiv-for-services</artifactId>
+			<version>1.4.0-SNAPSHOT</version>
+		</dependency>
         <!--AspectJ -->
         <dependency>
             <groupId>org.aspectj</groupId>
@@ -413,6 +418,7 @@
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
         </dependency>
+
     </dependencies>
     <build>
         <finalName>${project.artifactId}</finalName>
